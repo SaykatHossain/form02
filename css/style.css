@@ -1,0 +1,84 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	width: 100%;
+	background: #2c6ed5;
+}
+
+h1,h2,h3,h4,h5,h6,p,span,button,input,label,select,option,placeholder{
+	font-family: 'Roboto', sans-serif;
+}
+
+input,select:focus{
+	outline: none;
+}
+
+img{
+	width: 100%;
+	
+}
+
+.form{
+	width: 1000px;
+	margin: 90px 350px;
+}
+
+.form-contant div{
+	margin-bottom: 34px;
+}
+
+.form-contant{
+	width: 700px;
+	height: auto;
+	background: #ffffff;
+}
+
+.form-box{
+	padding: 0px 90px;
+	padding-top: 55px;
+	padding-bottom: 65px;
+}
+.form-box h2{
+	font-size: 30px;
+	font-weight: 400;
+	margin: 0px 0px 37px 0px;
+}
+
+.full-width{
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+}
+.half-width{
+	width: 46%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+}
+.half-width-2{
+	float: right;
+	width: 46%;
+	border: none;
+	border-bottom: 2px solid #ccc;
+}
+.form-box input ,.form-box select{
+	color: #666;
+	font-size: 14px;
+	padding: 9px 0px;
+}
+
+input.button{
+	border: none;
+	background: #57b846;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+	color: #fff;
+	line-height: 40px;
+	padding: 6px 20px;
+}
